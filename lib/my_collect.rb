@@ -11,5 +11,5 @@ end
 
 
 
-hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+collect(["Tim Jones", "Tom Smith", "Jim Campagno"]) { |name| "Hi, #{name}" }
 
