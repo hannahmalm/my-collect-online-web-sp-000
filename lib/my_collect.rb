@@ -4,9 +4,11 @@ def my_collect(array)
   collection = [] 
   while i < array.length
     collection << 
+    #yields the correct element from the collection
     yield(array[i])
     i += 1
   end
+  #returns a collection
   collection 
 end
 
