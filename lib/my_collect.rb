@@ -6,7 +6,7 @@ def collect(array)
     yield(array[i])
     i += 1
   end
-  collection #here we are returning the collection
+  collection 
 end
 
 
