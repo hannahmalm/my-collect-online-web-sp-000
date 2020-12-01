@@ -3,7 +3,7 @@ def my_collect(array)
   #my_collect can handle an empty collection 
   collection = [] 
   while i < array.length
-    collection << 
+    # collection << 
     #yields the correct element from the collection
     yield(array[i])
     i += 1
